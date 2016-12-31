@@ -34,10 +34,7 @@ for i in range(len(b)):
     for j in range(b[i]):
         c.append(a[i])
     
-numpy.savetxt('wordcloud5.txt', c, delimiter=" ", fmt="%s") #CHANGE THE NAME OF THE FILE YOU WANT TO SAVE THE NEW DATA TO
-#for data set 1, I saved it to wordcloud.txt, for data set 2, I saved it to wordcloud2.txt
-
-#This part generates the wordcloud
+numpy.savetxt('wordcloud5.txt', c, delimiter=" ", fmt="%s") 
 
 
 
